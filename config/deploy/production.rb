@@ -62,6 +62,6 @@
 
 set :stage, :production
 set :rails_env, :production
-set :deploy_to, "~/deploy/apps/wedding"
+set :deploy_to, "/deploy/apps/wedding"
 set :branch, :master
 server "18.138.212.86", user: "nara", roles: %w(web app db)
