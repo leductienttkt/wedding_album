@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock "3.11.0"
+lock "3.12.0"
 
 set :application, "wedding"
 set :repo_url, "git@github.com:leductienttkt/wedding_album.git"
