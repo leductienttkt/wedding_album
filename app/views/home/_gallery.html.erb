@@ -4,92 +4,30 @@
       <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
         <span>Our Memories</span>
         <h2>Wedding Gallery</h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
       </div>
     </div>
-    <div class="row row-bottom-padded-md">
-      <div class="col-md-12">
-        <ul id="fh5co-gallery-list">
-
-          <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('<%= asset_path 'album-1.jpg' %>'); ">
-          <a href="#">
-            <div class="case-studies-summary">
-              <span>14 Photos</span>
-              <h2>Two Glas of Juice</h2>
-            </div>
-          </a>
-        </li>
-        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('<%= asset_path 'album-2.jpg' %>'); ">
-          <a href="#" class="color-2">
-            <div class="case-studies-summary">
-              <span>30 Photos</span>
-              <h2>Timer starts now!</h2>
-            </div>
-          </a>
-        </li>
 
 
-        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('<%= asset_path 'album-3.jpg' %>'); ">
-          <a href="#" class="color-3">
-            <div class="case-studies-summary">
-              <span>90 Photos</span>
-              <h2>Beautiful sunset</h2>
-            </div>
-          </a>
-        </li>
-        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('<%= asset_path 'album-4.jpg' %>'); ">
-          <a href="#" class="color-4">
-            <div class="case-studies-summary">
-              <span>12 Photos</span>
-              <h2>Company's Conference Room</h2>
-            </div>
-          </a>
-        </li>
 
-          <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('<%= asset_path 'album-5.jpg' %>'); ">
-            <a href="#" class="color-3">
-              <div class="case-studies-summary">
-                <span>50 Photos</span>
-                <h2>Useful baskets</h2>
-              </div>
-            </a>
-          </li>
-          <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image:  url('<%= asset_path 'album-6.jpg' %>'); ">
-            <a href="#" class="color-4">
-              <div class="case-studies-summary">
-                <span>45 Photos</span>
-                <h2>Skater man in the road</h2>
-              </div>
-            </a>
-          </li>
-
-          <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image:  url('<%= asset_path 'album-7.jpg' %>'); ">
-            <a href="#" class="color-4">
-              <div class="case-studies-summary">
-                <span>35 Photos</span>
-                <h2>Two Glas of Juice</h2>
-              </div>
-            </a>
-          </li>
-
-          <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image:  url('<%= asset_path 'album-8.jpg' %>'); ">
-            <a href="#" class="color-5">
-              <div class="case-studies-summary">
-                <span>90 Photos</span>
-                <h2>Timer starts now!</h2>
-              </div>
-            </a>
-          </li>
-          <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image:  url('<%= asset_path 'album-9.jpg' %>'); ">
-            <a href="#" class="color-6">
-              <div class="case-studies-summary">
-                <span>56 Photos</span>
-                <h2>Beautiful sunset</h2>
-              </div>
-            </a>
-          </li>
-        </ul>
+      <div id="canvas">
+        <div id="book-zoom">
+          <div class="sj-book">
+            <div depth="5" class="hard"> <div class="side"></div></div>
+            <div depth="5" class="hard front-side"> <div class="depth"></div></div>
+            <div class="own-size"></div>
+            <div class="own-size even"></div>
+            <div class="hard fixed back-side p111"> <div class="depth"></div></div>
+            <div class="hard p112"></div>
+          </div>
+        </div>
       </div>
-    </div>
+
+
+
   </div>
 </div>
+
+<script type="text/javascript">
+  $('#canvas').css({visibility: 'hidden'});
+  loadApp();
+</script>
