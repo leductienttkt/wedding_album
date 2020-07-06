@@ -1,0 +1,49 @@
+.section {
+  height: 100%;
+  background-color: white;
+}
+
+#section1 {
+  .save-the-date {
+    color: white;
+    font-size: 70px;
+    font-family: "Sacramento", Arial, serif;
+  }
+
+  #fh5co-logo {
+    color: white;
+  }
+}
+
+#section3 {
+  #fh5co-couple-story {
+    padding: 1em 0;
+  }
+
+  .fh5co-heading {
+    margin-bottom: 1em;
+  }
+
+  .timeline-panel {
+    padding: 15px;
+  }
+
+  .timeline:before {
+    top: 25px;
+    bottom: 30px;
+  }
+
+  .timeline-badge {
+    top: 0;
+  }
+}
+
+#section4 {
+  #fh5co-gallery {
+    padding: 1em 0;
+  }
+
+  .fh5co-heading {
+    margin-bottom: 1em;
+  }
+}
