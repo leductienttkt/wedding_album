@@ -19,18 +19,29 @@
 $(document).on('ready', function() {
     var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
 
-    // default example
     simplyCountdown('.simply-countdown-one', {
         year: d.getFullYear(),
         month: d.getMonth() + 1,
         day: d.getDate()
     });
 
-    //jQuery example
     $('#simply-countdown-losange').simplyCountdown({
         year: d.getFullYear(),
         month: d.getMonth() + 1,
         day: d.getDate(),
         enableUtc: false
+    });
+
+    $('#pagepiling').pagepiling({
+      direction: 'horizontal',
+      menu: '#menu',
+      anchors: ['countdown', 'about_us', 'our_story', 'gallery', 'friends_wishes', 'events', 'invitation'],
+      navigation: {
+        'position': 'right',
+        'tooltips': ['Countdown', 'About Us', 'Our Story', 'Gallery', 'Friends Wishes', 'Events', 'Invitation'],
+        'bulletsColor': '#FBB6D2',
+      },
+      loopTop: true,
+      loopBottom: true,
     });
 })

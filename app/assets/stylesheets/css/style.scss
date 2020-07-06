@@ -2,15 +2,15 @@
   font-family: 'icomoon';
   src: font-url("icomoon/icomoon.eot?srf3rx") format("embedded-opentype");
   src: font-url("icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"),
-    font-url("icomoon/icomoon.ttf?srf3rx") format("truetype"), 
-    font-url("icomoon/icomoon.woff?srf3rx") format("woff"), 
+    font-url("icomoon/icomoon.ttf?srf3rx") format("truetype"),
+    font-url("icomoon/icomoon.woff?srf3rx") format("woff"),
     font-url("icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 900px;
+  height: 850px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -325,7 +325,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
-  height: 900px;
+  height: 850px;
   display: table;
   width: 100%;
 }
@@ -1842,5 +1842,3 @@ form label {
 .js .animate-box {
   opacity: 0;
 }
-
-/*# sourceMappingURL=style.css.map */
