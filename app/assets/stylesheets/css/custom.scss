@@ -45,7 +45,6 @@
 #section4 {
   #fh5co-gallery {
     padding: 1em 0;
-    height: 100vh;
   }
 
   .fh5co-heading {
@@ -63,12 +62,34 @@
   }
 }
 
+#section6 {
+  .display-tc {
+    height: 100vh !important;
+    display: table-cell !important;
+    vertical-align: middle;
+  }
+}
+
 #section7 {
   #fh5co-started {
-    height: 70vh;
+    height: 80vh;
   }
 
   #fh5co-footer {
-    height: 30vh;
+    height: 20vh;
+  }
+
+  .display-tc {
+    display: table-cell;
+    height: 80vh;
+    width: 100vw;
+    vertical-align: middle;
+  }
+
+  .display-tc-footer {
+    display: table-cell;
+    height: 20vh;
+    width: 100vw;
+    vertical-align: middle;
   }
 }
