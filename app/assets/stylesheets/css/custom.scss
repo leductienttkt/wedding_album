@@ -50,4 +50,10 @@
   #canvas {
     margin-top: 0;
   }
+
+  @media (min-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  }
 }
