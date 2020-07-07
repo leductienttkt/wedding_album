@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 850px;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -325,7 +325,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
-  height: 850px;
+  height: 100vh;
   display: table;
   width: 100%;
 }
@@ -358,7 +358,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  height: 100vh;
   float: left;
 }
 #fh5co-counter .display-t,

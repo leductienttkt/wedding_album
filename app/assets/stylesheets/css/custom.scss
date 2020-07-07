@@ -13,6 +13,10 @@
   #fh5co-logo {
     color: white;
   }
+
+  #fh5co-header {
+    height: 100vh;
+  }
 }
 
 #section3 {
@@ -41,6 +45,7 @@
 #section4 {
   #fh5co-gallery {
     padding: 1em 0;
+    height: 100vh;
   }
 
   .fh5co-heading {
@@ -55,5 +60,15 @@
     .container {
       width: 100%;
     }
+  }
+}
+
+#section7 {
+  #fh5co-started {
+    height: 70vh;
+  }
+
+  #fh5co-footer {
+    height: 30vh;
   }
 }
