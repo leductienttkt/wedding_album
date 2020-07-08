@@ -43,5 +43,6 @@ $(document).on('ready', function() {
     },
     loopTop: true,
     loopBottom: true,
+    keyboardScrolling: false,
   });
 });
